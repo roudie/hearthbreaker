@@ -8,6 +8,7 @@ from hearthbreaker.constants import CHARACTER_CLASS
 from hearthbreaker.engine import Game, Deck, card_lookup
 from hearthbreaker.ui.game_printer import GameRender
 from hearthbreaker.cards import *
+from hearthbreaker.state.state import State
 
 
 def load_deck(filename):
@@ -71,6 +72,8 @@ def render_game(stdscr):
                 elif action == "power":
                     if player.hero.power.can_use():
                         player.hero.power.use()
+                elif action == "state":
+                    State.export_state()
                 index += 1
                 renderer.draw_game()
                 action = self.choose_action()
@@ -79,7 +82,7 @@ def render_game(stdscr):
 
         def choose_action(self):
             self.window.addstr(0, 0, "Choose action")
-            actions = ["play", "attack", "power", "end", "quit"]
+            actions = ["play", "attack", "power", "end", "state", "quit"]
             index = 0
             selected = 0
             for action in actions:
