@@ -1,0 +1,328 @@
+{
+  "players": [
+    {
+      "hero": {
+        "character": "Mage",
+        "health": 30,
+        "armor": 0,
+        "name": "Jaina",
+        "attack": 0,
+        "immune": 0,
+        "used_windfury": false,
+        "attacks_performed": 0
+      },
+      "deck": [
+        {
+          "name": "Goldshire Footman",
+          "used": true
+        },
+        {
+          "name": "Goldshire Footman",
+          "used": false
+        },
+        {
+          "name": "Murloc Raider",
+          "used": false
+        },
+        {
+          "name": "Murloc Raider",
+          "used": false
+        },
+        {
+          "name": "Bloodfen Raptor",
+          "used": false
+        },
+        {
+          "name": "Bloodfen Raptor",
+          "used": false
+        },
+        {
+          "name": "Frostwolf Grunt",
+          "used": false
+        },
+        {
+          "name": "Frostwolf Grunt",
+          "used": false
+        },
+        {
+          "name": "River Crocolisk",
+          "used": false
+        },
+        {
+          "name": "River Crocolisk",
+          "used": false
+        },
+        {
+          "name": "Ironfur Grizzly",
+          "used": false
+        },
+        {
+          "name": "Ironfur Grizzly",
+          "used": false
+        },
+        {
+          "name": "Magma Rager",
+          "used": false
+        },
+        {
+          "name": "Magma Rager",
+          "used": true
+        },
+        {
+          "name": "Silverback Patriarch",
+          "used": false
+        },
+        {
+          "name": "Silverback Patriarch",
+          "used": false
+        },
+        {
+          "name": "Chillwind Yeti",
+          "used": false
+        },
+        {
+          "name": "Chillwind Yeti",
+          "used": false
+        },
+        {
+          "name": "Oasis Snapjaw",
+          "used": false
+        },
+        {
+          "name": "Oasis Snapjaw",
+          "used": false
+        },
+        {
+          "name": "Sen'jin Shieldmasta",
+          "used": false
+        },
+        {
+          "name": "Sen'jin Shieldmasta",
+          "used": true
+        },
+        {
+          "name": "Booty Bay Bodyguard",
+          "used": false
+        },
+        {
+          "name": "Booty Bay Bodyguard",
+          "used": false
+        },
+        {
+          "name": "Fen Creeper",
+          "used": false
+        },
+        {
+          "name": "Fen Creeper",
+          "used": true
+        },
+        {
+          "name": "Boulderfist Ogre",
+          "used": false
+        },
+        {
+          "name": "Boulderfist Ogre",
+          "used": false
+        },
+        {
+          "name": "War Golem",
+          "used": false
+        },
+        {
+          "name": "War Golem",
+          "used": false
+        }
+      ],
+      "graveyard": [],
+      "hand": [
+        {
+          "name": "Sen'jin Shieldmasta"
+        },
+        {
+          "name": "Fen Creeper"
+        },
+        {
+          "name": "Goldshire Footman"
+        },
+        {
+          "name": "Magma Rager"
+        }
+      ],
+      "secrets": [],
+      "weapon": null,
+      "effects": [],
+      "auras": [],
+      "minions": [],
+      "mana": 1,
+      "max_mana": 1,
+      "current_overload": 0,
+      "upcoming_overload": 0,
+      "name": "one"
+    },
+    {
+      "hero": {
+        "character": "Mage",
+        "health": 30,
+        "armor": 0,
+        "name": "Jaina",
+        "attack": 0,
+        "immune": 0,
+        "used_windfury": false,
+        "attacks_performed": 0
+      },
+      "deck": [
+        {
+          "name": "Goldshire Footman",
+          "used": false
+        },
+        {
+          "name": "Goldshire Footman",
+          "used": false
+        },
+        {
+          "name": "Murloc Raider",
+          "used": false
+        },
+        {
+          "name": "Murloc Raider",
+          "used": false
+        },
+        {
+          "name": "Bloodfen Raptor",
+          "used": true
+        },
+        {
+          "name": "Bloodfen Raptor",
+          "used": true
+        },
+        {
+          "name": "Frostwolf Grunt",
+          "used": true
+        },
+        {
+          "name": "Frostwolf Grunt",
+          "used": false
+        },
+        {
+          "name": "River Crocolisk",
+          "used": false
+        },
+        {
+          "name": "River Crocolisk",
+          "used": false
+        },
+        {
+          "name": "Ironfur Grizzly",
+          "used": false
+        },
+        {
+          "name": "Ironfur Grizzly",
+          "used": false
+        },
+        {
+          "name": "Magma Rager",
+          "used": false
+        },
+        {
+          "name": "Magma Rager",
+          "used": false
+        },
+        {
+          "name": "Silverback Patriarch",
+          "used": false
+        },
+        {
+          "name": "Silverback Patriarch",
+          "used": false
+        },
+        {
+          "name": "Chillwind Yeti",
+          "used": false
+        },
+        {
+          "name": "Chillwind Yeti",
+          "used": false
+        },
+        {
+          "name": "Oasis Snapjaw",
+          "used": true
+        },
+        {
+          "name": "Oasis Snapjaw",
+          "used": false
+        },
+        {
+          "name": "Sen'jin Shieldmasta",
+          "used": false
+        },
+        {
+          "name": "Sen'jin Shieldmasta",
+          "used": false
+        },
+        {
+          "name": "Booty Bay Bodyguard",
+          "used": false
+        },
+        {
+          "name": "Booty Bay Bodyguard",
+          "used": false
+        },
+        {
+          "name": "Fen Creeper",
+          "used": false
+        },
+        {
+          "name": "Fen Creeper",
+          "used": false
+        },
+        {
+          "name": "Boulderfist Ogre",
+          "used": false
+        },
+        {
+          "name": "Boulderfist Ogre",
+          "used": false
+        },
+        {
+          "name": "War Golem",
+          "used": false
+        },
+        {
+          "name": "War Golem",
+          "used": false
+        }
+      ],
+      "graveyard": [],
+      "hand": [
+        {
+          "name": "Frostwolf Grunt"
+        },
+        {
+          "name": "Bloodfen Raptor"
+        },
+        {
+          "name": "Bloodfen Raptor"
+        },
+        {
+          "name": "Oasis Snapjaw"
+        },
+        {
+          "name": "The Coin"
+        }
+      ],
+      "secrets": [],
+      "weapon": null,
+      "effects": [],
+      "auras": [],
+      "minions": [],
+      "mana": 0,
+      "max_mana": 0,
+      "current_overload": 0,
+      "upcoming_overload": 0,
+      "name": "two"
+    }
+  ],
+  "active_player": 1,
+  "current_sequence_id": 0,
+  "turn_count": 1
+}

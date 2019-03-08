@@ -10,7 +10,6 @@ from hearthbreaker.ui.game_printer import GameRender
 from hearthbreaker.cards import *
 from hearthbreaker.state.state import State
 
-
 def load_deck(filename):
     cards = []
     character_class = CHARACTER_CLASS.MAGE
@@ -73,7 +72,7 @@ def render_game(stdscr):
                     if player.hero.power.can_use():
                         player.hero.power.use()
                 elif action == "state":
-                    State.export_state()
+                    current_state.export_state()
                 index += 1
                 renderer.draw_game()
                 action = self.choose_action()
@@ -403,6 +402,7 @@ def render_game(stdscr):
     deck1 = load_deck(sys.argv[1])
     deck2 = load_deck(sys.argv[2])
     game = Game([deck1, deck2], [TextAgent(stdscr, prompt_window, text_window), agent])
+    current_state = State(game)
     if game.first_player == 0:
         renderer = GameRender(stdscr, game, game.players[0])
     else:
